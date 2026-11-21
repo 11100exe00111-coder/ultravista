@@ -1,7 +1,3 @@
-{
-  "required": true,
-  "package": "com.ultravista.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "client": [],
-  "injectors": { "defaultRequire": 1 }
-}
+package com.ultravista.mixin;
+
+public class FogMixin {}
