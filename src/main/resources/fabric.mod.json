@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ultravista",
+  "version": "1.0.0-zalith",
+  "name": "UltraVista",
+  "description": "Lightweight distant-horizon rendering for Zalith Launcher 2.",
+  "authors": ["UltraVista"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ultravista/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ultravista.UltraVistaMod"
+    ],
+    "client": [
+      "com.ultravista.client.UltraVistaClient"
+    ]
+  },
+  "mixins": [
+    "ultravista.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.20.1",
+    "java": ">=21"
+  }
+}
